@@ -6,7 +6,7 @@ PACKAGE_NAME := adrl
 
 DIR := "${CURDIR}"
 SOURCE_DIR := ${PACKAGE_NAME}
-.PHONY: help install-dev check format pre-commit clean help:
+.PHONY: help install-dev check format pre-commit clean help
 	@echo "Makefile ${NAME}"
 	@echo "* install-dev      to install all dev requirements and install pre-commit"
 	@echo "* clean            to clean any doc or build files"

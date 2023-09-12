@@ -3,13 +3,13 @@
 # If things break on update, raise an issue
 repos:
   - repo: https://github.com/ambv/black
-    rev: 22.1.0
+    rev: 23.1.0
     hooks:
       - id: black
         name: black formatter adrl
         files: adrl
 
-      - repo: https://github.com/pycqa/flake8
+  - repo: https://github.com/pycqa/flake8
     rev: 4.0.1
     hooks:
       - id: flake8
