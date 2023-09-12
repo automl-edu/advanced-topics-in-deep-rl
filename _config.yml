@@ -18,7 +18,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Topics include modern model-free on- and offline RL algorithms,
   meta-learning paradigms and learning RL components for transfer learning, continual learning or mult-agent problems.
   Student learn to develop research ideas through experimentation as well as an exchange of ideas in a seminar-style format.
-baseurl: "/csci000" # the subpath of your site, e.g. /blog
+baseurl: "." # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 #number: CSCI 000
