@@ -1,0 +1,7 @@
+# For TOML reference
+# https://learnxinyminutes.com/docs/toml/
+
+[tool.black]
+target-version = ['py38']
+line-length = 120
+
