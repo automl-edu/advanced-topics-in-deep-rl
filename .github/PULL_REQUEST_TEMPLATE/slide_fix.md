@@ -11,4 +11,4 @@ Thanks for improving the slides! Here are some questions as info for us and sani
 ### In case of a factual error, did you include a source or correct the source?
 \<y\>/\<n\>
 
-If everything looks fine to you, please assign TheEimer as as reviewer for this PR.
+If everything looks fine to you, please assign @TheEimer as as reviewer for this PR.
