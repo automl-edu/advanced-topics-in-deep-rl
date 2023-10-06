@@ -17,15 +17,15 @@ layout: course-multi
 
 Upon completing this course, our goal is for you to be able to:
 
-* Build computer programs to:
-  * Effectively solve realistic problems.
-  * Organize, analyze, and summarize realistic data sets.
-* Read, understand, and explain a computer program.
-* Understand and explain computation through:
-  * Thinking logically and precisely.
-  * Making and testing hypotheses.
-* Use modular components to decompose problems and assemble solutions.
-* Create abstract, generalized models from specific, complex examples.
+* Have an overview of different layers of RL approaches:
+  * State-of-the-art RL algorithms & exploration strategies
+  * AutoRL methods for configuring RL agents reliably
+  * Meta-RL approaches 
+  * Algorithm discovery ideas
+* Read and understand current research in the field of RL
+* Develop your own RL research projects and ideas
+* Present and discuss your ideas with others
+* Refine your implementation & experimentation capabilities
 
 ## <a name="resources">Resources</a>
 
@@ -35,93 +35,86 @@ Upon completing this course, our goal is for you to be able to:
 
 {% include resources.html content=site.extra-resources %}
 
-## Laptop Policy
-
-Please **do not bring laptops to lecture**. This may seem strange in a computer science class. But lab is the place where you will get plenty of experience working on the computer; lecture is a time for thinking and learning without the distraction of a computer.
-
-Exceptions may be made on a case-by-case basis if you can prove to me that you really do benefit from using your laptop to take notes.
-
-<hr>
-
-# <a name="inclasscode">In-Class Code</a>
-
-When we write code together in class, it will be posted here!
-
-| Date | Topic | Code |
-|:----:|------||-----||
-| F 30 Aug | Intro to Python | [Intro Notebook](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/PythonIntro.ipynb) |
-| W 4 Sep | More Math and Functions | [Box Math](https://boxmath-yorgey.notebooks.azure.com/j/notebooks/BoxMath.ipynb) |
-| F 6 Sep | Strings and Booleans | [Booleans](https://booleans-yorgey.notebooks.azure.com/j/notebooks/Strings%20and%20Booleans.ipynb)
-
-<hr>
 # Coursework
 
-Each student has **four late days** to spend throughout the semester as they wish.
-Simply inform the instructor any time *prior* to the due date for an assignment
-that you wish to use a late day; you may then turn in the assignment up to 24
-hours late. Multiple late days may be used on the same assignment. There are no
-partial late days; turning in an assignment 2 hours late or 20 hours late will
-both use 1 late day. Note that late days are intended to cover both normal
-circumstances (you simply want more time to work on the assignment) and
-exceptional circumstances (you get sick, travel for a game or family
-obligation, *etc.*). After you have used up your late days, late assignments
-will receive at most half credit.
+Each student has **two abscence days** to spend throughout the semester as they wish.
+Simply inform the instructor any time *prior* to the lecture; if you miss more than two days, 
+you will have to provide documentation for your abscences (e.g. a sick note) and/or we'll discuss how you can make up the workload.
+If you're absent for a longer amount of time and aren't sure if that's okay and what kind of documentation you can provide, 
+please come talk to us! Often we can figure out the best way of handling longer abscences together in advance. 
 
-## <a name="hwqz">Homework and Quizzes</a>: 140 points
+## <a name="labs">The Lecture</a>
 
-| #  | Name | Assigned | Due |
-|:--:|-----||:--------:|:---:|
-|0 | [Info Sheet](https://docs.google.com/forms/d/e/1FAIpQLSdtxgmw2tL6IzzK0qq3Fw2h2FTFmGHoTRs8p6wTfTToUn7pZg/viewform?usp=sf_link) | W Aug 28 | F Aug 30 |
-|1 | [Sample Homework]({{site.baseurl}}/homework/function-reading.pdf) | F Sep 27 | W Oct 2 |
-|2 | [Sample Homework]({{site.baseurl}}/homework/function-reading.pdf) | F Sep 27 | W Oct 2 |
-|3 | [Sample Homework]({{site.baseurl}}/homework/function-reading.pdf) | F Sep 27 | W Oct 2 |
+The first component of this course is a weekly lecture. 
+This is quite similar to a standard lecture our agenda will look like this:
 
-There will often be short homework assignments to be completed over the weekend, assigned on Friday and due Wednesday, sometimes with a corresponding quiz at the beginning of class on Wednesday.
+1. Standup round: are there any questions from last session or the seminar? (max. 10 minutes)
+2. Lecturer Input 1 (35 minutes)
+3. 5 minute break 
+4. Lecturer Input 2 (30 minutes)
+5. Finishing round: is everything clear? Was anything missing for you? Do you have questions about potential applications, related work, future projects, etc.? (max. 10 minutes)
 
-## <a name="labs">Labs</a>: 260 points
+That means you'll have just over an hour where the week's lecturer will tell you about a specific topic in a traditional lecture style.
+This is the course knowledge we'll expect you to know come end of term and that you'll likely need for your project and seminar ideas. 
+The lecture is also a great place to ask high-level questions, e.g. about papers you've come across, issues you have with the lecture's topic or about anything else you'd like to know.
+More specific questions might be better answered in the *seminar*.
 
-| #  | Name | Assigned | Due |
-|:--:|-----||:--------:|:---:|
-|1 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Aug 28-29 | Sep 4-5 |
-|2 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Sep 4-5 | Sep 11-12 |
-|3 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Sep 11-12 | Sep 18-19 |
+## <a name="projects">The Seminar</a>
 
-Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. All labs are weighted equally within the lab portion of your final grade.
+Our second weekly session will be a seminar.
+First, we'll talk about the assigned reading. 
+For each week, you'll read a paper about the given topic -- you can either choose from a list in the lecture slides or select your own.
+In the seminar, we'll then talk about the ideas from the papers with everyone giving a brief summary (shouldn't exceed 2 minutes).
+With this information, we'll build an overview of research direction with the lecturer(s) filling in any gaps.
+This way you should leave each week with an impression of what's being worked on and what is possible.
 
-On these labs, you will work with a partner on the lab assignments. Their name must be listed on any code you hand in as joint work. A partnership should only turn in a **single copy** of the assignment. If students working as partners wish to turn in a lab late, both students must use a late day.
+In the second part, you'll give a brief presentation of a maxiumum of 3 minutes and 2 slides (we will stop you after 2 slides)! 
+After that, there'll be two minutes for questions and remarks.
+The presentations will always refer to one of three target settings we'll define in week one: continual learning, zero-shot transfer and multi-agent learning.
+This part of the seminar should help you practice brainstorming how to improve these settings with approaches and methods we've heard about even if they're not built for our domains orginally.
+The content of this presentation should refer to our current topic and provide some insight into what you're curious about, e.g.:
 
-**Lab attendance is required**. Labs take place in the **Snoddy Computer Lab**, in the Bailey Library. As you go through the exterior door of the library, turn immediately to your left and enter the Snoddy Academic Resource Center. Continue through the door at the far end of the hall into the first computer lab, and then enter the second lab at the back.
+* an experiment you tried to reproduce from a paper on our three target settings
+* an idea of how you could apply an existing method to our settings (and why it would work)
+* a completely new idea that came to you about how we can improve on our environments
 
-## <a name="projects">Projects</a>: 350 points
+These aren't graded, should be short and don't need to work perfectly. 
+It's about brainstorming together, discussing new ideas and giving feedback to each other.
+We expect your ideas to be incomplete and your experiments to have flaws at times, our expectation is that you're able to tell us what went wrong and how you'd move forward.
+Plus: you can use all the material you accumulate in your exam!
 
-| #  | Name | Points | Assigned | Due |
-|:--:|-----||:------:|:--------:|:---:|
-|1 | [Sample Project]({{site.baseurl}}/projects/sample-project.html)  | 50  | Sep 21 | Sep 30 |
-|2 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 100 | Oct 16 | Nov 1 |
-|3 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 200 | Nov 18 | Final Exam Day |
+## <a name="exams">The Exam</a>
 
-You will have three projects in this course, one about every five weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately one week after they are assigned.
+We'll have an exam at the end of the semester when the lectures have finished. 
+You'll be tested on two learning goals:
 
-**You must work individually on the first two projects.** You may discuss concepts and ideas with your classmates, but the code you turn in must be your own. You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
+1. How well can you develop and present a RL rearch project?
+2. How well do you know the content of the lecture?
 
-## <a name="exams">Exams</a>: 250 points
+For the first part, you'll present us a research proposal of your choice for 10 minutes. 
+You can re-use all the material and experiments from the lecture you like for this.
+What we will be looking for:
 
-There will be three in-class exams, the first worth 50 points and the second and
-third worth 100 of your final grade. They will consist of short answer
-questions along with writing and debugging code.
+- Is it an interesting and novel idea?
+- Would it be realistic to tackle in the timeframe of roughly 6-8 months for one person on university compute budgets?
+- Do you reference related approaches and how they compare?
+- Can you provide indicators of how well your idea will work (e.g. some toy experiments)?
+- What would be a realistic timeplan to realize your idea?
 
-* Exam 1: Sep 20, covering functions, math, numerical data, conditionals, and binary encoding
-* Exam 2: Oct 16, covering input/output, while loops, lists, and strings
-* Exam 3: Nov 25, covering for loops, dictionaries, classes and objects
+This means ideally you'll have read related papers, developed an idea, implemented a small version of it and get us some results on what works and what doesn't
+Then you'll tell us how you could expand upon it within a few months to make it a conference paper.
+**Important: don't overdo it! Take a small idea you can actually work with and don't try to solve RL**
 
-There is no final exam; you will complete a final project instead, as described above under Projects.
+In the second part, we'll ask you questions about topics from the lecture. 
+We expect you'll be able to tell us about content from the slides and our lecture discussions here, it's not necessary to know details from the seminar sessions.
 
-## <a name="scale">Grading Scale</a>
+## <a name="scale">Grading</a>
 
-| Score  | Grade  |
-|:------:|:------:|
-| 900-1000  | A   |
-| 800-899   | B   |
-| 700-799   | C   |
-| 600-699   | D   |
-| 0-599     | F   |
+You'll receive a grade based on your exam. 
+For that, we'll ask you for a short statement of about 2 minutes how you would grade your project (you can also add a sentence about how you think you did on the questions).
+Obviously we won't accept proposed grades that are way off from our perception, but if you make a convincing case, we'll try to match you proposal.
+The purpose of this is for you to reflect on your work, how much time and thought went into it, how much you learned and how satisfied you are with the project.
+Since this lecture's goal is to prepare you for projects in RL research, evaluating your work is a valuable skill as well.
+Needless to say, when it comes to the questions, your input will likely factor much less since you're not an expert in the topic quite yet, at least not in the way you'll be an expert on your project.
+Trying to cheat this process by providing a very high estimate of your work might backfire, so we suggest you're honest with us and yourself.
+
