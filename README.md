@@ -21,3 +21,10 @@ make install-dev
 ```
 # Your code here
 ```
+
+TODOs:
+- verständnisampel s. fast.ai
+- intuition als prio
+- großes visualisierung aller themen
+- beispielprojekt
+- klar machen dass komponenten beliebig kombinierbar sind

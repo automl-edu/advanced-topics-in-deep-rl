@@ -1,0 +1,29 @@
+Modulkatalog Lernziele: 
+    Die Studierenden sind in der Lage Problemstellungen als Reinforcement Learning Aufgabe zu formulieren und Lösungsansätze aus aktuellen Forschungsergebnissen zu entwickeln. 
+    Dazu haben sie einen Überblick über die Forschungslandschaft mit Schwerpunkt Meta Reinforcement Learning gewonnen. 
+    In einen abschließenden Projekt haben die Studierenden gelernt diese Konzepte selbständig weiterzuentwickeln und praktisch umzusetzen.
+
+Modulkatalog Stoffplan: Erweiterungen des MDP Frameworks, Aktuelle RL Algorithmen, RL in der Praxis, Meta RL, RL Lernen
+
+Modulkatalog Vorkenntnisse: Reinforcement Learning
+
+Modulkatalog Literaturempfehlungen: -
+
+
+Description Website:
+    Reinforcement Learning (RL) in principle offers a highly interesting path for AI problem solving: entwining data collection and model learning to find novel solutions.
+    While this has been successfully done in games, robotics and even some natural sciences like physics or chemistry, RL solution strategies are to date brittle and often lack generalization capabilities. 
+    Therefore RL research has been trying to find better algorithms -- through improving the algorithms themselves, configuring them more efficiently or learning to support them in their tasks.
+    This course will cover these ideas and you see how RL and MetaRL can be combined to solve RL problems. 
+    The accompanying seminar session will offer opportunities for you to discuss how the ideas from the lecture can be applied in non-standard RL scenarios like continual learning. 
+    At the end of the semester, you will apply these skills to drafting a research proposal improving one such setting for the exam.
+
+Recommended pre-requisites:
+    The contents of our lecture "Reinforcement Learning" are mandatory for this course. We will *not* have time to recap these basics, you'll be expected to know the concepts and algorithms from this lecture and be able to implement them!
+
+Lecture topics include:
+    - Extensions to Markov-Decision Processes
+    - The state of RL algorithms
+    - RL in research & practice
+    - MetaRL
+    - Learning to Reinforcement learn
