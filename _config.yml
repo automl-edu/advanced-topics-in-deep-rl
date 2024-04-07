@@ -25,26 +25,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 title: Advanced Topics in Deep Reinforcement Learning
 semester: Summer 2024
 
-navigation:
-  - title: Overview
-    subfolderitems:
-      - page: Description
-        url: '#description'
-      - page: Learning Goals
-        url: '#goals'
-      - page: Resources
-        url: '#resources'
-  - title: Coursework
-    subfolderitems:
-      - page: Quizzes
-        url: '#quizzes'
-      - page: Seminar
-        url: '#seminar'
-      - page: Exam
-        url: '#exam'
-  - page: Commitments
-    url: '#commitments'
-
 instructors:
   - id: theeimer
     name: Theresa Eimer
@@ -61,38 +41,38 @@ instructors:
 
 offerings:
   - name: Lecture
-    loc: TBA
-    time: TBA
+    loc: F435
+    time: Mondays 11:45-13:15
     instructor: theeimer
   - name: Seminar
-    loc: TBA
-    time: TAB
-    instructor: theeimer & aditya
+    loc: F435
+    time: Thursdays 16:00-17:30
+    instructor: theeimer
 
-resources:
-  - name: Python 3.10
-    image: assets/images/pythonlogo.png
-    url: http://python.org
-  - name: Azure Notebooks
-    image: assets/images/azure.png
-    url: https://notebooks.azure.com/
-  - name: Pycharm
-    image: assets/images/pycharmlogo.png
-    url: https://www.jetbrains.com/pycharm/
+# resources:
+#   - name: Python 3.10
+#     image: assets/images/pythonlogo.png
+#     url: http://python.org
+#   - name: Azure Notebooks
+#     image: assets/images/azure.png
+#     url: https://notebooks.azure.com/
+#   - name: Pycharm
+#     image: assets/images/pycharmlogo.png
+#     url: https://www.jetbrains.com/pycharm/
 
-extra-resources:
-  - name: "How to Think Like a Computer Scientist: Interactive Edition"
-    image: assets/images/runestone_logo.png
-    url: https://runestone.academy/runestone/books/published/thinkcspy/index.html
-  - name: Python Tutor
-    image: assets/images/python_tutor.png
-    url: http://pythontutor.com/
-  - name: CodingBat Python
-    image: assets/images/codingbat.jpg
-    url: https://codingbat.com/python
-  - name: CheckiO Python Practice
-    image: assets/images/checkio_logo_small.png
-    url: https://py.checkio.org/
+# extra-resources:
+#   - name: "How to Think Like a Computer Scientist: Interactive Edition"
+#     image: assets/images/runestone_logo.png
+#     url: https://runestone.academy/runestone/books/published/thinkcspy/index.html
+#   - name: Python Tutor
+#     image: assets/images/python_tutor.png
+#     url: http://pythontutor.com/
+#   - name: CodingBat Python
+#     image: assets/images/codingbat.jpg
+#     url: https://codingbat.com/python
+#   - name: CheckiO Python Practice
+#     image: assets/images/checkio_logo_small.png
+#     url: https://py.checkio.org/
 
 # Build settings
 markdown: kramdown
