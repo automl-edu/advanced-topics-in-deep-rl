@@ -62,9 +62,9 @@ More specific questions might be better answered in the *seminar*.
 ## <a name="projects">The Seminar</a>
 
 Our second weekly session will be a seminar.
-Each of you will give a brief presentation of a maxiumum of 3 minutes and 2 slides (we will stop you after 2 slides)! 
-After that, there'll be two minutes for questions and remarks.
-The presentations will always refer to one of three target settings we'll define in week one: continual learning, offline RL and multi-agent learning.
+Each of you will give a brief presentation of a maxiumum of 2 minutes and 2 slides (we will stop you after 2 slides)! 
+After that, there'll be some time for questions and remarks.
+The presentations will always refer to one of three target settings we defined in week one: continual learning, offline RL and multi-agent learning.
 This part of the seminar should help you practice brainstorming how to improve these settings with approaches and methods we've heard about even if they're not built for our domains orginally.
 The content of this presentation should refer to our current topic and provide some insight into what you're curious about, e.g.:
 
