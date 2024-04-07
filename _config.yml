@@ -29,15 +29,8 @@ instructors:
   - id: theeimer
     name: Theresa Eimer
     email: t.eimer@ai.uni-hannover.de
-    web: http://ozark.hendrix.edu/~yorgey
-    phone: (501) 450-1377
-    officehours: https://byorgey.youcanbook.me
-  - id: adi
-    name: Aditya Mohan
-    email: a.mohan@ai.uni-hannover.de
-    web: http://mark.goadrich.com
-    phone: (501) 450-1367
-    officehours: http://mark.goadrich.com/schedule.html
+    web: https://www.ai.uni-hannover.de/de/institut/team-luhai/eimer
+    officehours: https://calendar.app.google/tMdop6qyU59B1XF5A
 
 offerings:
   - name: Lecture
