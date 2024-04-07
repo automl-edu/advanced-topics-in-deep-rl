@@ -2,15 +2,15 @@ import os
 
 import setuptools
 
-from adrl import (
-    author,
-    author_email,
-    description,
-    package_name,
-    project_urls,
-    url,
-    version,
-)
+package_name = "adrl"
+author = "Theresa Eimer"
+author_email = "t.eimer@ai.uni-hannover.de"
+description = "No description given"
+url = "https://www.automl.org"
+project_urls = {
+    "Source Code": "https://github.com/automl-edu/advanced-topics-in-deep-rl",
+}
+version = "0.0.1"
 
 HERE = os.path.dirname(os.path.realpath(__file__))
 
@@ -23,14 +23,13 @@ def read_file(filepath: str) -> str:
 extras_require = {
     "dev": [
         # Others
-        "black",
-        "flake8",
+        "rust",
         "pre-commit",
     ]
 }
 
 setuptools.setup(
-    name=package_name,
+    name="advanced-topics-in-deep-rl",
     author=author,
     author_email=author_email,
     description=description,
@@ -41,9 +40,14 @@ setuptools.setup(
     project_urls=project_urls,
     version=version,
     packages=setuptools.find_packages(exclude=["tests"]),
+    include_package_data=True,
     python_requires=">=3.8",
     install_requires=[
-        "numpy"
+        "numpy==1.24.2",
+        "gymnasium[box2d]>=0.28.1",
+        "carl-bench==1.1.0",
+        "cython",
+        "torch==2.2.2",
     ],
     extras_require=extras_require,
     platforms=["Linux"],
