@@ -62,15 +62,9 @@ More specific questions might be better answered in the *seminar*.
 ## <a name="projects">The Seminar</a>
 
 Our second weekly session will be a seminar.
-First, we'll talk about the assigned reading. 
-For each week, you'll read a paper about the given topic -- you can either choose from a list in the lecture slides or select your own.
-In the seminar, we'll then talk about the ideas from the papers with everyone giving a brief summary (shouldn't exceed 2 minutes).
-With this information, we'll build an overview of research direction with the lecturer(s) filling in any gaps.
-This way you should leave each week with an impression of what's being worked on and what is possible.
-
-In the second part, you'll give a brief presentation of a maxiumum of 3 minutes and 2 slides (we will stop you after 2 slides)! 
+Each of you will give a brief presentation of a maxiumum of 3 minutes and 2 slides (we will stop you after 2 slides)! 
 After that, there'll be two minutes for questions and remarks.
-The presentations will always refer to one of three target settings we'll define in week one: continual learning, zero-shot transfer and multi-agent learning.
+The presentations will always refer to one of three target settings we'll define in week one: continual learning, offline RL and multi-agent learning.
 This part of the seminar should help you practice brainstorming how to improve these settings with approaches and methods we've heard about even if they're not built for our domains orginally.
 The content of this presentation should refer to our current topic and provide some insight into what you're curious about, e.g.:
 
