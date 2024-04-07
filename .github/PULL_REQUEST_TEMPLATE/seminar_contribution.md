@@ -14,7 +14,4 @@ Before you finalize this PR, please double check the following things:
 ### Did you push more than two slides?
 \<y\>/\<n\>
 
-### Is the pre-commit passing?
-\<y\>/\<n\>
-
 If everything looks fine to you, please assign @TheEimer as as reviewer for this PR.
