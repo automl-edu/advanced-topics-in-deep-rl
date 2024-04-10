@@ -7,6 +7,7 @@ class GravityChangeWrapper(Wrapper):
     def __init__(self, env):
         super().__init__(env)
         self.n_steps = 0
+        self.n_total_steps = 0
         self.n_switches = 0
 
     def step(self, action):
@@ -16,10 +17,15 @@ class GravityChangeWrapper(Wrapper):
             truncated = True
         return state, reward, terminated, truncated, info
 
-    def reset(self):
-        self.env.reset()
-        if self.n_steps // 10000 <= self.n_switches:
-            change_kind = np.random.choice(["flip", "random"])
+def reset(self):
+        self.n_total_steps += self.n_steps
+        self.n_steps = 0
+        
+        if self.n_total_steps  // 10000 > self.n_switches:
+            # as gravity has to be in (-20. 0.01) flipping does not make sense
+            # change_kind = np.random.choice(["flip", "random"])
+            change_kind = "random"  
+            
             if change_kind == "flip":
                 gravity = -self.env.context["GRAVITY_Y"]
             else:
