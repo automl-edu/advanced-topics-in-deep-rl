@@ -3,6 +3,23 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{hyperref}
+\usepackage[style=ext-authoryear, backend=biber]{biblatex}
+\addbibresource{refs.bib}
+
+\DeclareOuterCiteDelims{parencite}{\bibopenbracket}{\bibclosebracket}
 
 \begin{document}
+\begin{frame}{Formalization of replicability}
+  \begin{itemize}
+    \item reproducibility under multiple seeds
+    \item implies good generalization and stability \parencite{reproducibility_learning}
+    \item \parencite{replicability} is about tabular infinite-horizon algorithms
+    \item complexity dependent on cardinality of state-action space
+    \item replicability usually sample inefficient \parencite{replicability}
+    \item[$\rightarrow$] very strict: $O(n^3)$ sample complexity, $O(\exp(n))$ time complexity
+    \item approximate replicability: high probability of producing same policy with different seeds
+    \item[$\rightarrow$] $O(n)$ sample and time complexity \parencite{replicability}
+  \end{itemize}
+\end{frame}
+
 \end{document}
