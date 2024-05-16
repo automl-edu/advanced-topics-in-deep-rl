@@ -1,0 +1,26 @@
+\documentclass[12pt]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage[style=ext-authoryear, backend=biber]{biblatex}
+\addbibresource{refs.bib}
+
+\DeclareOuterCiteDelims{parencite}{\bibopenbracket}{\bibclosebracket}
+
+\begin{document}
+\begin{frame}{Actionspace as Hyperparameter}
+  \begin{itemize}
+    \item Large Actionspace $\rightarrow$ hard to explore
+    \item Especially sequences of actions hard
+    \pause
+    \item[$\rightarrow$] Weed out bad actions by hand
+    \item[$\rightarrow$] Disable/Enable actions via some kind of HPO \parencite{evolving_population} (here EA)
+    \item[$\rightarrow$] Give agent whole action-sequences \parencite{action_sequences} (here mostly done by hand + some EA)
+    \item[$\rightarrow$] e.g. flipping LunarLander in our ContinualRL problem
+    \pause
+    \item Search Space grows larger, but Agents (hopefully) easier to train
+  \end{itemize}
+\end{frame}
+
+\end{document}
