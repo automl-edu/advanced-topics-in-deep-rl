@@ -8,12 +8,33 @@
 \usepackage{subcaption}
 \usepackage[style=ext-authoryear, backend=biber]{biblatex}
 \addbibresource{refs.bib}
+\usepackage{csquotes}
 
 \DeclareOuterCiteDelims{parencite}{\bibopenbracket}{\bibclosebracket}
 
 \begin{document}
 
-\begin{frame}{}
+\begin{frame}{Challenges Learning Continual RL}
+  \begin{itemize}
+    \item Transition function depends on \textit{not observed} data
+    \item for our LunarLander a single random variable $\in \{0, 1\}$ is enough
+    \item Need to learn this from last transitions
+    \pause
+  \item[$\rightarrow$] another network (RNN?) with multiple transitions as input and a \textit{task embedding} as output
+    \item hard to learn $\rightarrow$ agent could do this itself otherwise
+    \item even harder if endlessly changing
+    \item May already be covered by \enquote{standard} env-learning algorithms
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Opportunities Learning Continual RL}
+  \begin{itemize}
+    \item sample task embeddings, no need to start from beginning
+    \item[$\rightarrow$] agent can learn all of them equally often/priority weighted
+    \pause
+    \item out of distribution embeddings may have meaning to them
+    \item[$\rightarrow$] better learning through more data
+  \end{itemize}
 \end{frame}
 
 \end{document}
