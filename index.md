@@ -27,14 +27,6 @@ Upon completing this course, our goal is for you to be able to:
 * Present and discuss your ideas with others
 * Refine your implementation & experimentation capabilities
 
-## <a name="resources">Resources</a>
-
-{% include resources.html content=site.resources %}
-
-## <a name="additional-resources">Optional Resources</a>
-
-{% include resources.html content=site.extra-resources %}
-
 # Coursework
 
 Each student has **two abscence days** to spend throughout the semester as they wish.
