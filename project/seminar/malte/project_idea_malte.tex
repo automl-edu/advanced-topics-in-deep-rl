@@ -1,0 +1,42 @@
+\documentclass[12pt]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[style=ext-authoryear, backend=biber]{biblatex}
+\addbibresource{refs.bib}
+\usepackage{csquotes}
+
+\DeclareOuterCiteDelims{parencite}{\bibopenbracket}{\bibclosebracket}
+
+\begin{document}
+
+\begin{frame}{Proximal Curriculum Learning with State Novelty}
+  \begin{itemize}
+    \item Use zone of proximal development (pick start state with probability of success $PoS \approx 0.5$) \parencite{proximal}
+    \item approximate $PoS$ via value-function \parencite{proximal}
+      \pause
+    \item \textit{Own Idea:} already using state to guide student, why not pick novel states
+    \item[$\rightarrow$] should help value-function converge
+    \item[$\rightarrow$] should still pick mostly promising states
+      \pause
+    \item trade off via hyperparameter between $PoS$ and novelty
+    \item alternatively incorporate state novelty as intrinsic reward: directly influences $PoS$
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Practical Considerations}
+  \begin{itemize}
+    \item \textit{Implementation Overhad:} no given code, but modifications (including hyperparameters) to stable-baselines listed for \parencite{proximal}
+      \pause
+    \item \textit{Compute Overhead:} should be reasonably cheap depending on the state novelty algorithm and environment
+      \pause
+    \item \textit{Reproducibility:} Should reproduce given limited modifications to stable-baselines. If not try to use rollouts to approximate $PoS$.
+      \pause
+    \item MiniGrid should be good, sparse and many states
+  \end{itemize}
+\end{frame}
+\end{document}
